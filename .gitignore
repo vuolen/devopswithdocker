@@ -1,3 +1,4 @@
 test
-part1/1.10/frontend-example-docker
-part1/1.11/backend-example-docker
+frontend-example-docker
+backend-example-docker
+logs.txt
