@@ -1,0 +1,2 @@
+I have dockerized my own project at https://github.com/vuolen/kirjasto/blob/main/docker-compose.yml
+I have a container for the front- and backends, and the db. The end to end tests are also dockerized.

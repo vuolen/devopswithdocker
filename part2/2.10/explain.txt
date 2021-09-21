@@ -1,0 +1,2 @@
+I changed the REACT_APP_BACKEND_URL to be defined as an ARG.
+The backend was defined as localhost:8080 in the dockerfile, now it is defined by the compose file.

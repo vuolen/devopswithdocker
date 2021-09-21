@@ -8,9 +8,10 @@ RUN apt install -y nodejs
 
 COPY . .
 
+ARG REACT_APP_BACKEND_URL
 
 RUN npm install
-RUN REACT_APP_BACKEND_URL=http://localhost:8080 npm run build
+RUN REACT_APP_BACKEND_URL="$REACT_APP_BACKEND_URL" npm run build
 RUN npm install -g serve
 
 CMD serve -s -l 5000 build
