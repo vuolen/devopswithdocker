@@ -1,0 +1,17 @@
+version: '3.5' 
+
+services:
+    frontend:
+        build: ../2.3/example-frontend
+        ports:
+            - 5000:5000
+    backend:
+        build: ../2.3/example-backend
+        environment:
+            - REQUEST_ORIGIN=http://localhost:5000
+            - REDIS_HOST=redis
+        ports:
+            - 8080:8080
+
+    redis:
+        image: redis
