@@ -1,0 +1,2 @@
+I already have a project with a deployment pipeline to heroku. The workflow can be found here.
+https://github.com/vuolen/kirjasto/blob/main/.github/workflows/cd.yml
