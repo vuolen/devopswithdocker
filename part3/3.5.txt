@@ -1,1 +1,3 @@
-I already used FROM golang for the backend. The frontend was 369MB and now is 
+The backend was 1.02GB and now is 397MB.
+
+The frontend was 369MB and now is 406MB. The node alpine image seems to be larger than only the ubuntu one. But its difficult to uninstall the node installation from the node alpine image.

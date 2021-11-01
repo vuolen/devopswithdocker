@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM golang:alpine
 
 WORKDIR /usr/app
 
@@ -10,7 +10,7 @@ RUN go build && \
     rm -rf * && \
     mv ../server ./server
 
-RUN useradd -m appuser 
+RUN adduser -D appuser 
 USER appuser
 
 CMD ./server
