@@ -1,0 +1,4 @@
+Starting out the backend is 1.09GB and the frontend is 586MB.
+
+After removing sources and go packages from the backend it was 1.07GB.
+After removing sources and curl from the frontend it was 369MB. The biggest factor seemed to be grouping the RUN commands.

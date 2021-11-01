@@ -1,0 +1,1 @@
+I already used FROM golang for the backend. The frontend was 369MB and now is 
