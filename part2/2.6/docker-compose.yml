@@ -4,7 +4,7 @@ services:
     frontend:
         build: ../2.3/example-frontend
         ports:
-            - 5000:5000
+            - 5000:80
     backend:
         build: ../2.3/example-backend
         environment:
